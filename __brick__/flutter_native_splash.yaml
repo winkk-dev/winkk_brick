@@ -1,0 +1,12 @@
+# Generate using `flutter pub run flutter_native_splash:create`
+# https://pub.dev/packages/flutter_native_splash#usage
+flutter_native_splash:
+  image: "assets/img/launch/winkk.png"
+  color: "#ffffff"
+#  image_dark:
+#  color_dark: "#000000"
+  android_12:  # Android 12 only supports icon
+#    color: "#ffffff"
+#    image: "assets/img/launch/placeholder.png"
+#    image_dark: "assets/img/launch/placeholder.png"
+#    color_dark: "#000000"

@@ -1,0 +1,15 @@
+{
+    "general_continue": "Weiter",
+    "general_back": "Zurück",
+    "general_cancel": "Abbrechen",
+    "general_done": "Fertig",
+    "general_save": "Speichern",
+    "general_skip": "Überspringen",
+    "general_required": "Pflichtfeld",
+    "general_error_info": "Konnte nicht geladen werden.\nÜberprüfe deine Internetverbindung oder aktualisiere die App.",
+    "home_start": "Home",
+    "home_shipment": "Sendung",
+    "home_explore": "Entdecken",
+    "home_friends": "Freunde",
+    "home_profile": "Profil"
+}

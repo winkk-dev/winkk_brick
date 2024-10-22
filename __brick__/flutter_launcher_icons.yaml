@@ -1,0 +1,25 @@
+# Generate using `flutter pub run flutter_launcher_icons`
+# https://pub.dev/packages/flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  min_sdk_android: 26
+  image_path: "assets/img/launch/winkk.png"
+  adaptive_icon_foreground: "assets/img/launch/winkk.png"
+  adaptive_icon_background: "#ffffff"
+
+  ios: true
+  image_path_ios: "assets/img/launch/winkk.png"
+  remove_alpha_ios: true
+
+  web:
+    generate: true
+    image_path: "assets/img/launch/winkk.png"
+    background_color: "#ffffff"
+    theme_color: "#ffffff"
+  windows:
+    generate: true
+    image_path: "assets/img/launch/winkk.png"
+    icon_size: 128 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/img/launch/winkk.png"

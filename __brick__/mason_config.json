@@ -1,0 +1,11 @@
+{
+    "appName": "{{{appName}}}",
+    "homeWithBottomNav": {{{homeWithBottomNav}}},
+    "inAppWebView": {{{inAppWebView}}},
+    "darkMode": {{{darkMode}}},
+    "themeColorSeed": "{{{themeColorSeed}}}",
+    "sentryUrl": "{{{sentryUrl}}}",
+    "sentryOrg": "{{{sentryOrg}}}",
+    "sentryDsn": "{{{sentryDsn}}}",
+    "sentryProject": "{{{sentryProject}}}"
+}
