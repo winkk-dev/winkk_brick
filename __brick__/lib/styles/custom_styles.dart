@@ -17,6 +17,7 @@ class CustomStyles {
     foregroundColor: Colors.white,
   );
 
+  // Can be moved to static extension on FontWeight as soon as supported https://github.com/dart-lang/language/issues/723
   static const FontWeight thin = FontWeight.w100;
   static const FontWeight extraLight = FontWeight.w200;
   static const FontWeight light = FontWeight.w300;

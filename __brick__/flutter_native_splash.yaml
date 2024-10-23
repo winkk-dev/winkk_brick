@@ -1,4 +1,4 @@
-# Generate using `flutter pub run flutter_native_splash:create`
+# Generate using `dart run flutter_native_splash:create`
 # https://pub.dev/packages/flutter_native_splash#usage
 flutter_native_splash:
   image: "assets/img/launch/winkk.png"

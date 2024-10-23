@@ -112,13 +112,13 @@ Future<void> run(HookContext context) async {
 
   progress = context.logger.progress('Creating icons and splash screen');
   try {
-    final splashResult = await Process.run('flutter', ['pub', 'run', 'flutter_native_splash:create']);
+    final splashResult = await Process.run('dart', ['run', 'flutter_native_splash:create']);
     if (splashResult.exitCode != 0) {
       progress.fail('Failed to create splash screen: ${splashResult.stderr}');
       return;
     }
 
-    final iconsResult = await Process.run('flutter', ['pub', 'run', 'flutter_launcher_icons']);
+    final iconsResult = await Process.run('dart', ['run', 'flutter_launcher_icons']);
     if (iconsResult.exitCode != 0) {
       progress.fail('Failed to create icons: ${iconsResult.stderr}');
       return;
