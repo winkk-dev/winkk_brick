@@ -90,6 +90,9 @@ class CustomThemeData {
       shape: RoundedRectangleBorder(borderRadius: CustomStyles.borderRadius),
       behavior: SnackBarBehavior.floating,
     ),
+    extensions: [
+      customColors, customTextStyles
+    ],
   );
 
   static final ThemeData light = _createTheme(CustomColors.lightColorScheme, CustomColors.light, CustomTextStyles.lightTextStyles, Brightness.light);
